@@ -56,7 +56,7 @@ export default class CreateTodo extends Component {
 
     render() {
         return (
-            <div style={{ marginTop: 20 }}>
+            <div className="container-fluid" style={{ marginTop: 20 }}>
                 <h3>Create New</h3>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">

@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="container-fluid">
+        <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <a className="navbar-brand" href="#">
               <img src = {logo} width="30" height="30" alt="logo" />
